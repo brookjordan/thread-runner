@@ -1,0 +1,33 @@
+{
+  "name": "ThreadRunner",
+  "version": "1.0.0",
+  "description": "Creates threaded processes to be ran at various fps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brook Jordan",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsdoc": "^0.5.8",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "keywords": [
+    "brk",
+    "brkjrdn",
+    "brook",
+    "jordan",
+    "thread",
+    "runner",
+    "threadrunner"
+  ],
+  "dependencies": {
+    "karma": "^0.12.31"
+  }
+}
