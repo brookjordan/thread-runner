@@ -81,7 +81,9 @@ function Thread (id, { fps = 60, active = false, tasks = [], frame = 0, simulate
   }
 
   this.run = () => {
-    if (!simulate || atTime < +new Date()) {
+    const dateNow = +new Date();
+
+    if (!simulate || atTime < dateNow) {
       tasks.forEach(task => {
         task();
       });
